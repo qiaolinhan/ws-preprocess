@@ -6,7 +6,7 @@ The thought may comes from antique fraud, we want to produce a fake antique, and
 If you think its interesting, please star us :) 
 
 **Building the environment**  
-* Google compute platform on Linux
+* Install the Google compute platform on Linux
 ```
 # Create environment variable for correct distribution
 export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)"
@@ -21,7 +21,7 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
   
-* conda install fastai packages
+* Conda install fastai packages
 ```
 sudo /opt/anaconda3/bin/conda install -c fastai fastai
 ```
