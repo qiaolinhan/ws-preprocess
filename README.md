@@ -31,4 +31,6 @@ sudo /opt/anaconda3/bin/conda install -c fastai fastai
 This repo is the fist part of the image restoration model.    
 This is a **generative adversarial netork (GAN) model**.    
   * **Generator**: Resnet34 pretrained U-net.
-  * **Discriminator**: A binary classifier which is foun by fastai function `gan_critic()`
+  * **Discriminator**: A binary classifier with adaptive binary cross entropy loss, which is foun by fastai function `gan_critic()`.  
+  * Using spectral normalization, based on the paper: https://arxiv.org/abs/1802.05957.  
+  
