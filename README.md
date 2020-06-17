@@ -26,3 +26,9 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 sudo /opt/anaconda3/bin/conda install -c fastai fastai
 ```
 **Fastai give us many ideas to avoid running out of GPU RAM, like the `mixed procision training` to make us train the model on 16 bite position.** This is mentioned in class 3 https://course.fast.ai/videos/?lesson=3
+
+## GAN1
+This repo is the fist part of the image restoration model.  
+This is a **generative adversarial netork (GAN) model**.  
+  **Generator**: Resnet34 pretrained U-net.
+  **Discriminator**: A binary classifier which is foun by fastai function `gan_critic()`
