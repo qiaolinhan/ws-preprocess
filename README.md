@@ -28,13 +28,13 @@ sudo /opt/anaconda3/bin/conda install -c fastai fastai
 **Fastai give us many ideas to avoid running out of GPU RAM, like the `mixed procision training` to make us train the model on 16 bite position.** This is mentioned in class 3 https://course.fast.ai/videos/?lesson=3
 
 ## GAN1
-This repo [gan1][https://github.com/qiaolinhan/ws-preprocess/blob/master/GAN1%20.ipynb] is the fist part of the image restoration model.    
+This repo [gan1](https://github.com/qiaolinhan/ws-preprocess/blob/master/GAN1%20.ipynb) is the fist part of the image restoration model.    
 This is a **generative adversarial netork (GAN) model**.    
   * **Generator**: Resnet34 pretrained U-net.
   * **Discriminator**: A binary classifier with adaptive binary cross entropy loss, which is foun by fastai function `gan_critic()`.  
   * Using spectral normalization, based on the paper: https://arxiv.org/abs/1802.05957.  
 ## GAN2
-This repo [gan2][GAN2.ipynb] is the secondpart of the image restoration model.  
+This repo [gan2](GAN2.ipynb) is the secondpart of the image restoration model.  
 This is a **loss network critic U-net model**.  
   * **U-net**: Resnet34 pretrained.  
   * **Loss network**: Imagenet pre-trained VGG16, grab the feature maps or the activations befor thire chaning (one step before max pooling) in middle of this network.  
