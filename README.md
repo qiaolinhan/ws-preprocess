@@ -33,4 +33,9 @@ This is a **generative adversarial netork (GAN) model**.
   * **Generator**: Resnet34 pretrained U-net.
   * **Discriminator**: A binary classifier with adaptive binary cross entropy loss, which is foun by fastai function `gan_critic()`.  
   * Using spectral normalization, based on the paper: https://arxiv.org/abs/1802.05957.  
-  
+## GAN2
+This repo is the secondpart of the image restoration model.  
+This is a **loss network critic U-net model**.  
+  * **U-net**: Resnet34 pretrained.  
+  * **Loss network**: Imagenet pre-trained VGG16, grab the feature maps or the activations befor thire chaning (one step before max pooling) in middle of this network.  
+  * Basded on paper: https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
