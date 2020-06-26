@@ -38,7 +38,7 @@ This model is the second part of the image restoration model.
 This is a **loss network critic U-net model**.  
   * **U-net**: Resnet34 pretrained.  
   * **Loss network**: Imagenet pre-trained VGG16, grab the feature maps or the activations befor thire chaning (one step before max pooling) in middle of this network.  
-  * Basded on paper: https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
+  * Based on paper: https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
 
 
 **Considering**：Can we use learner to train the loss unet as generator so that the structure can be more compact?
