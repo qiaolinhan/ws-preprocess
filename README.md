@@ -41,4 +41,4 @@ This is a **loss network critic U-net model**.
   * Based on paper: https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
 
 
-**Considering**：Can we use learner to train the loss unet as generator so that the structure can be more compact?
+
