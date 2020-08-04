@@ -37,8 +37,8 @@ This is a **generative adversarial netork (GAN) model**.
 This model is the second part of the image restoration model.  
 This is a **loss network critic U-net model**.  
   * **U-net**: Resnet34 pretrained.  
-  * **Loss network**: Imagenet pre-trained VGG16, grab the feature maps or the activations befor thire chaning (one step before max pooling) in middle of this network.  
-  * Based on paper: https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
+  * **Loss network**: Imagenet pre-trained VGG16, grab the feature maps or the activations befor thire changing (one step before max pooling) in middle of this network.  
+  * Model based on paper: https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
 
 
 
