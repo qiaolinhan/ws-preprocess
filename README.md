@@ -1,6 +1,6 @@
 # ws-preprocess
 This is image restoration for UAV based wildfire segmentation, because it will always meet some disturbance, noise or other serious situation. 
-The code is based on the fastai packages and the class https://course.fast.ai/videos/?lesson=7.  
+The code is based on the fastai packages and the [class](https://course.fast.ai/videos/?lesson=7).  
 The thought may comes from antique fraud. It is assumed that we want to produce a fake antique, and we got other authentic products during its specific age. After learning their features and finish making the fake, we show it to the expert and the expert tells us where we made it wrong. Then, every time we adjust more features make it harder for that expert to tell which is counterfeit.  
 
 If you think its interesting, please star us :) 
@@ -25,7 +25,7 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
 sudo /opt/anaconda3/bin/conda install -c fastai fastai
 ```
-**Fastai give us many ideas to avoid running out of GPU RAM, like the `mixed procision training` to make us train the model on 16 bite position.** This is mentioned in class 3 https://course.fast.ai/videos/?lesson=3
+**Fastai give us many ideas to avoid running out of GPU RAM, like the `mixed procision training` to make us train the model on 16 bite position.** This is mentioned in [class 3](https://course.fast.ai/videos/?lesson=3)
 
 ## [GAN1.ipynb](https://github.com/qiaolinhan/ws-preprocess/blob/master/GAN1%20.ipynb)
 This model is the fist part of the image restoration model.    
