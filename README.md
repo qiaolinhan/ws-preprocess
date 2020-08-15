@@ -1,7 +1,7 @@
 # ws-preprocess
 This is image restoration for UAV based wildfire segmentation, because it will always meet some disturbance, noise or other serious situation. 
 The code is based on the fastai packages and the class https://course.fast.ai/videos/?lesson=7.  
-The thought may comes from antique fraud, we want to produce a fake antique, and we got other authentic products during its specific age. After learning their features and finish making the fake, we show it to the expert and the expert tells us where we made it wrong. Then, every time we adjust more features make it harder for that expert to tell which is counterfeit.  
+The thought may comes from antique fraud. It is assumed that we want to produce a fake antique, and we got other authentic products during its specific age. After learning their features and finish making the fake, we show it to the expert and the expert tells us where we made it wrong. Then, every time we adjust more features make it harder for that expert to tell which is counterfeit.  
 
 If you think its interesting, please star us :) 
 
