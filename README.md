@@ -41,4 +41,6 @@ This is a **loss network critic U-net model**.
   * Model based on [the paper](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43): https://link.springer.com/chapter/10.1007/978-3-319-46475-6_43.
 
 
-
+## Data.zip
+The data we used comes from Google Image and they are cleared and stored in the folder `target`, in the crappify step, these images are crappied into folder `crappy`.  
+Other folders are the processing from 'crappy' to 'target'. The network models will be stored in the processing.
