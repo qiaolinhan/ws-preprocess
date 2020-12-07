@@ -3,7 +3,6 @@ This is image restoration for UAV based wildfire segmentation, because it will a
 The code is based on the fastai packages and the [ fastai class 7](https://course.fast.ai/videos/?lesson=7).  
 The thought may comes from antique fraud. It is assumed that we want to produce a fake antique, and we got other authentic products during its specific age. After learning their features and finish making the fake, we show it to the expert and the expert tells us where we made it wrong. Then, every time we adjust more features make it harder for that expert to tell which is counterfeit.  
 
-If you think its interesting, please star us :) 
 
 ## Building the environment 
 * Install the Google compute platform on Linux
@@ -44,3 +43,17 @@ This is a **loss network critic U-net model**.
 ## Data
 The data we used comes from Google Image and they are cleared and stored in the folder `target`, in the crappify step, these images are crappied into folder `crappy`.  
 Other folders are the processing from 'crappy' to 'target'. The network models will be stored in the processing.
+-------------------------
+If you think its interesting, please star us or cite our paper :)
+
+Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration." 2020 2nd International Conference on Industrial Artificial Intelligence (IAI). IEEE, 2020.
+
+@inproceedings{qiao2020pre,
+  title={Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration},
+  author={Qiao, Linhan and Zhang, Youmin and Qu, Yaohong},
+  booktitle={2020 2nd International Conference on Industrial Artificial Intelligence (IAI)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
+}
+
