@@ -43,11 +43,12 @@ This is a **loss network critic U-net model**.
 ## Data
 The data we used comes from Google Image and they are cleared and stored in the folder `target`, in the crappify step, these images are crappied into folder `crappy`.  
 Other folders are the processing from 'crappy' to 'target'. The network models will be stored in the processing.
+
 -------------------------
 If you think its interesting, please star us or cite our paper :)
 
 Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration." 2020 2nd International Conference on Industrial Artificial Intelligence (IAI). IEEE, 2020.
-
+```
 @inproceedings{qiao2020pre,
   title={Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration},
   author={Qiao, Linhan and Zhang, Youmin and Qu, Yaohong},
@@ -57,3 +58,4 @@ Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfi
   organization={IEEE}
 }
 
+```
