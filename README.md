@@ -47,7 +47,7 @@ Other folders are the processing from 'crappy' to 'target'. The network models w
 -------------------------
 If you think its interesting, please star us or cite our paper :)
 
-Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration." 2020 2nd International Conference on Industrial Artificial Intelligence (IAI). IEEE, 2020.
+[Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration." 2020 2nd International Conference on Industrial Artificial Intelligence (IAI). IEEE, 2020.](https://ieeexplore-ieee-org.lib-ezproxy.concordia.ca/abstract/document/9262172)
 ```
 @inproceedings{qiao2020pre,
   title={Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration},
