@@ -24,7 +24,7 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
 sudo /opt/anaconda3/bin/conda install -c fastai fastai
 ```
-**Fastai give us many ideas to avoid running out of GPU RAM, like the `mixed procision training` to make us train the model on 16 bite position.** This is mentioned in [fastai class 3](https://course.fast.ai/videos/?lesson=3).
+**Fastai gives us many ideas to avoid running out of GPU RAM, like the `mixed precision training` to make us train the model on 16 bite position.** This is mentioned in [fastai class 3](https://course.fast.ai/videos/?lesson=3).
 
 ## [GAN1.ipynb](https://github.com/qiaolinhan/ws-preprocess/blob/master/GAN1%20.ipynb)
 This model is the fist part of the image restoration model.    
@@ -47,7 +47,7 @@ Other folders are the processing from 'crappy' to 'target'. The network models w
 -------------------------
 If you think its interesting, please star us or cite our paper :)
 
-[Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration." 2020 2nd International Conference on Industrial Artificial Intelligence (IAI). IEEE, 2020.](https://ieeexplore-ieee-org.lib-ezproxy.concordia.ca/abstract/document/9262172)
+[Qiao, Linhan, Youmin Zhang, and Yaohong Qu. "Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration." 2020 2nd International Conference on Industrial Artificial Intelligence (IAI). IEEE, 2020.](https://ieeexplore-ieee-org/abstract/document/9262172)
 ```
 @inproceedings{qiao2020pre,
   title={Pre-processing for UAV Based Wildfire Detection: A Loss U-net Enhanced GAN for Image Restoration},
